@@ -1,4 +1,5 @@
 import Image from "next/image";
+import funfacticon from "@/public/funfact.svg";
 
 export default function Home() {
   return (
@@ -14,7 +15,6 @@ export default function Home() {
           alt="Portret Jana Kochanowskiego"
         />
         <p className="text-2xl p-4 mt-2">Życiorys Kochanowskiego:</p>
-
         <p className="text-xl">Najważniejsze etapy życia Kochanowskiego:</p>
         <ul className="list-disc p-4 mt-2">
           <li>Ok. 1530 r. - Narodziny w Sycynie na Mazowszu</li>
@@ -58,9 +58,76 @@ export default function Home() {
             nawiązująca do mitu o wojnie trojańskiej, o wydźwięku politycznym i
             moralnym.
           </li>
-          <li>Psałterz Dawidów - mistrzowski poetycki przekład biblijnych psalmów.</li>
+          <li>
+            Psałterz Dawidów - mistrzowski poetycki przekład biblijnych psalmów.
+          </li>
         </ul>
-        <p className="text-2xl">Fraszka "Na lipę":</p>
+        <p className="text-2xl p-4 mt-2">Życie prywatne:</p>
+        <p className="text-xl">Rodzina:</p>
+        <ul className="list-disc p-4 mt-2">
+          <li>Ojciec - Piotr Kochanowski</li>
+          <li>Matka - Anna Białaczowska</li>
+          <li>Żona - Dorota Podlodowska</li>
+          <li>Córka - Urszula Kochanowska</li>
+        </ul>
+        <p>
+          Jan Kochanowski Urodził się w 1530 r. w Sycynie. Dokładna data jego
+          urodzenia nie jest jednak znana.
+        </p>
+        <p className="text-xl">Fakty:</p>
+        <ul className="list-disc mt-4">
+          <li>Był szlachcicem i mieszkał w Czarnolesie.</li>
+          <li>Miał kilkoro dzieci, w tym córkę Urszulę Kochanowską.</li>
+          <li>
+            Śmierć Urszulki bardzo go dotknęła i stała się inspiracją do
+            napisania Treny.
+          </li>
+          <li>Cenił życie rodzinne, spokój i życie na wsi.</li>
+          <li>Był stoikiem</li>
+        </ul>
+        <div className="flex mt-8">
+          <Image src={funfacticon} alt="Ciekawostka" className="w-16 mr-2" />
+          <p>
+            Ciekawostka: Kochanowski jest uważany za jednego z najwybitniejszych
+            poetów polskiego renesansu.
+          </p>
+        </div>
+        <div className="mt-8">
+          1. Jan Kochanowski był patriotą i troszczył się o ojczyznę
+          <br />
+          &bull; Poeta uważał, że obywatel powinien dbać o dobro państwa.
+          Krytykował egoizm szlachty i brak odpowiedzialności za kraj.
+          <br />
+          <br />
+          <br />
+          2. Język polski
+          <br />
+          &bull; Kochanowski pisał po polsku i udowodnił, że język narodowy
+          nadaje się do wielkiej literatury, co miało ogromne znaczenie dla
+          kultury narodowej.
+          <br />
+          <br />
+          <br />
+          3. Tematy polityczne i społeczne
+          <br />
+          &bull; W utworach komentował sytuację Rzeczypospolitej, nawoływał do
+          jedności narodowej i obrony kraju.
+          <br />
+          <br />
+          <br />
+          4. Tworzył pieśni patriotyczne
+          <br />
+          &bull; Szczególnie znana jest pieśń o spustoszeniu Podola, w której
+          poeta apelował o obronę ojczyzny przed najazdami.
+          <br />
+          <br />
+          <br />
+          5. Odprawa posłów greckich
+          <br />
+          &bull; Dramat pokazujący, że prywatne interesy mogą doprowadzić
+          państwo do upadku. Utwór miał być przestrogą dla Polaków.
+        </div>
+        <p className="text-2xl mt-8">Fraszka "Na lipę":</p>
         <q className="bg-amber-200 p-4 mt-2">
           Gościu, siądź pod mym liściem, a odpoczni sobie!
           <br />
