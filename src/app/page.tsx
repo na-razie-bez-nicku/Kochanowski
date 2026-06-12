@@ -83,7 +83,6 @@ export default function Home() {
             napisania Treny.
           </li>
           <li>Cenił życie rodzinne, spokój i życie na wsi.</li>
-          <li>Był stoikiem</li>
         </ul>
         <div className="flex mt-8">
           <Image src={funfacticon} alt="Ciekawostka" className="w-16 mr-2" />
